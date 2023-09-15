@@ -30,6 +30,7 @@ methods:{
   console.warn(result);
   if(result.status==201){
     alert('sign-up done');
+    localStorage.setItem('user-info',JSON.stringify(result.data) )
   }
 }
 }
