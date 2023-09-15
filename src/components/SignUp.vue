@@ -21,7 +21,7 @@ export default {
 },
 methods:{
   signUp(){
-    console.warn("signup")
+    console.warn("signup",this.name, this.email, this.password)
   }
 }
 }
