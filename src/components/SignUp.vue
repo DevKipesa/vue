@@ -33,7 +33,13 @@ methods:{
     this.$router.push({name:'HomePage'})
   }
 }
-}
+},
+ mounted(){
+     let user=localStorage.getItem('user-info');
+     if(user){
+      this.$router.push({name:'HomePage'})
+     }
+ }
 }
 </script>
 <style>
