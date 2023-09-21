@@ -20,7 +20,7 @@ export default {
 .logo {
   width: 100px;
 }
-.register input{
+.register input, .login input{
 width: 300px;
 height: 40px;
 padding-left: 20px;
@@ -30,7 +30,7 @@ margin-left: auto;
 margin-right: auto;
 border: 1px solid skyblue;
 }
-.register button{
+.register button,.login button{
     width: 325px;
     height: 40px;
     background-color: skyblue;
