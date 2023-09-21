@@ -39,6 +39,13 @@ border: 1px solid skyblue;
 .register button:hover{
     background-color: #fff;
 }
+.log{
+  text-decoration: none;
+}
+.log:hover{
+  color: black;
+  width: fit-content;
+}
 body{
     background-color: rgb(234, 246, 250);
 }
