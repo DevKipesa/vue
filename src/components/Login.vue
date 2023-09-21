@@ -1,5 +1,14 @@
 <template>
-    <h1>Login Page</h1>
+    <img class="logo" src="../assets/logo1.png" />
+  <h1>LogIn</h1>
+  <div class="register">
+    <input type="text" v-model="email" placeholder="Enter Email" />
+    <input type="password" v-model="password" placeholder="Enter Password" />
+    <button v-on:click="signUp">Login</button>
+    <p>
+      <router-link to="/sign-up">SignUp</router-link>
+    </p>
+</div>
 </template>
 <script>
 export default{
