@@ -33,7 +33,14 @@ export default {
         this.$router.push({ name: 'HomePage' });
         console.warn(result);
       }
-    }
+    },
+    //function makes it to remain on the same page
+    mounted(){
+     let user=localStorage.getItem('user-info');
+     if(user){
+      this.$router.push({name:'HomePage'})
+     }
+ }
   }
 };
 </script>
