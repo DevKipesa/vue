@@ -11,6 +11,7 @@
 </div>
 </template>
 <script>
+import axios from 'axios';
 export default{
     name:'LoginPage',
     data(){
@@ -20,8 +21,11 @@ export default{
       }
     },
     methods:{
-      login(){
-      console.log(this.email, this.password)
+       async login(){
+      let result=await axios.get(
+          `http://localhost:3000/users?email=${this.email}&password=${this.password}`
+        )
+      console.warn(result)
       }
     }
 }
