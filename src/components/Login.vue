@@ -4,7 +4,7 @@
   <div class="login">
     <input type="text" v-model="email" placeholder="Enter Email" />
     <input type="password" v-model="password" placeholder="Enter Password" />
-    <button>Login</button>
+    <button v-on:click="login">Login</button>
     <p>
       <router-link class="log" to="/sign-up">SignUp</router-link>
     </p>
@@ -17,6 +17,11 @@ export default{
       return{
         email:'',
         password:''
+      }
+    },
+    methods:{
+      login(){
+      console.log(this.email, this.password)
       }
     }
 }
