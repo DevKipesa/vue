@@ -12,6 +12,12 @@
 </template>
 <script>
 export default{
-    name:'LoginPage'
+    name:'LoginPage',
+    data(){
+      return{
+        email:'',
+        password:''
+      }
+    }
 }
 </script>
