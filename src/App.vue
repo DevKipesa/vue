@@ -19,6 +19,10 @@ export default {
 .logo {
   width: 100px;
 }
+body{
+  padding: 0;
+  margin: 0;
+}
 .register input, .login input{
 width: 300px;
 height: 40px;
