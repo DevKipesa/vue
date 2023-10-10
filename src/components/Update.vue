@@ -1,11 +1,11 @@
 <template>
 <HeaderBar />
-    <h1>Hello, Welcome to Homepage Peeps</h1>
+    <h1>Hello, Welcome to Update restaurant page Peeps</h1>
 </template>
 <script>
 import HeaderBar from './Header.vue'
 export default {
-    name: 'HomePage',
+    name: 'UpdatePage',
     components:{
         HeaderBar
     },
