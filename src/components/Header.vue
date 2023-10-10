@@ -12,7 +12,7 @@ export default{
     methods:{
         logout(){
         localStorage.clear();
-        this.$router.push('LoginPage')
+        this.$router.push({name:'LoginPage'})
         }
     }
 }
