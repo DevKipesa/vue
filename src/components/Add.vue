@@ -1,6 +1,6 @@
 <template>
 <HeaderBar />
-    <h1>Hello, Welcome to Addpage Peeps</h1>
+    <h1>Hello, Welcome to Add Restaurant page Peeps</h1>
 </template>
 <script>
 import HeaderBar from './Header.vue'
